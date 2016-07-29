@@ -1,0 +1,653 @@
+/**
+ * 400 - normal
+ * 500 - medium
+ * 700 - bold
+ */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.wrapper {
+    background-color: #f0f0f0;
+    width: 1440px;
+    height: 1442px;
+    margin: 0 auto;
+    position: relative;
+}
+
+                            /*******Header*******/
+
+.header {
+    background-color: #ffffff;
+    width: 1240px;
+    height: 56px;
+    float: right;
+}
+
+.header h1 {
+    color: rgba(43, 43, 43, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    margin: 16px;
+    display: inline-block;
+}
+
+.header button {
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e0e0e0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: rgba(43, 43, 43, 0.8);
+    font-weight: 500;
+    width: 172px;
+    height: 32px;
+}
+
+.header input {
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #e0e0e0;
+    box-sizing: border-box;
+    background-color:  #ffffff;
+    width: 218px;
+    height: 32px;
+    margin-top: 11px;
+    margin-right: 15px;
+    padding-left: 17px;
+    padding-right: 20px;
+    position: relative;
+    float: right;
+
+}
+.header .search-h{
+    background-image: url('../img/icon_line.png');
+    background-repeat: no-repeat;
+    width: 1px;
+    height: 32px;
+    position: absolute;
+    top: 11px;
+    right: 48px;
+}
+
+.header .search {
+    background-position: 0px -40px;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 18px;
+    right: 22px;
+}
+
+                            /*******Left Menu*******/
+
+.sidebar {
+    background-color: #2b2b2b;
+    width: 200px;
+    height: 1442px;
+    float: left;
+}
+
+.logo,
+.header .search,
+.dashboard .icon-dashboard,
+.registration .icon-artists,
+.registration .icon-promoters,
+.registration .icon-users,
+.activities .icon-claim-requests,
+.activities .icon-booking-requests,
+.activities .icon-messages,
+.actions .icon-send-notices,
+.flags .icon-flagged-users,
+.flags .icon-flagged-messages,
+.search-block .search-tag .tag-techno,
+.search-block .search-tag .tag-house,
+.search-block .search-tag .cross-techno,
+.search-block .search-tag .cross-house,
+.content .table .cross-clamed,
+.content .table .cross-not-clamed {
+    background-image: url('../img/sprites.png');
+    background-repeat: no-repeat;
+}
+
+.logo {
+    background-position: 0px 0px;
+    width: 77px;
+    height: 24px;
+    margin-left: 15px;
+    margin-top: 17px;
+}
+
+.sidebar a {
+    color: #ffffff;
+    text-decoration: none;
+    border: transparent;
+}
+
+.sidebar li:hover {
+    color: #ffffff;
+    text-align: left;
+    text-decoration: none;
+    border-radius: 3px;
+    background-color: #92c345;
+    width: 184px;
+    height: 32px;
+    /*padding: 0;
+    margin: 0;*/
+    margin-left: 8px;
+}
+
+                            /*******Left Menu-User Profile*******/
+
+.user-profile {
+    margin-top: 28px;
+    margin-left: 15px;
+}
+
+.user-profile .user-foto {
+    float: left;
+    padding-right: 16px;
+}
+
+.user-profile .user-name {
+    color:  #ffffff;
+}
+
+.user-profile a {
+    font-weight: 500;
+}
+
+.user-profile p {
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+                            /*******Left Menu-Dashboard*******/
+
+.dashboard {
+    margin-top: 26px;
+    position: relative;
+}
+
+.dashboard .icon-dashboard {
+    background-position: -15px -58px;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 0;
+    left: 23px;
+}
+
+.dashboard p {
+    display: inline-block;
+    margin-left: 56px;
+    color:  #ffffff;
+}
+
+                            /*******Left Menu-Menu Registration*******/
+
+menu li {
+    display:inline-block;
+    text-decoration: none;
+}
+
+.registration p {
+    color: #ffffff;
+    font-size: 12px;
+    margin-left: 16px;
+    margin-top: 8px;
+    text-align: left;
+}
+
+.registration .icon-artists {
+    background-position: -61px -58px;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 23px;
+    margin-top: 10px;
+}
+
+.registration .artists a{
+    display: inline-block;
+    margin-left: 56px;
+    margin-top: 8px;
+}
+
+.registration .icon-promoters {
+    background-position: -52px -24px;
+    width: 16px;
+    height: 15px;
+    position: absolute;
+    left: 23px;
+    margin-top: 15px;
+}
+
+.registration .promoters a{
+    display: inline-block;
+    margin-left: 56px;
+    margin-top: 14px;
+}
+
+.registration .icon-users {
+    background-position: -20px -24px;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 23px;
+    margin-top: 15px;
+}
+
+.registration .users a{
+    display: inline-block;
+    margin-left: 56px;
+    margin-top: 14px;
+}
+
+                            /*******Left Menu-Menu Activities*******/
+
+.activities p {
+    color: #ffffff;
+    font-size: 12px;
+    margin-left: 15px;
+    margin-top: 25px;
+    text-align: left;
+}
+
+.activities .icon-claim-requests {
+    background-position: -31px -58px;
+    width: 15px;
+    height: 16px;
+    position: absolute;
+    left: 24px;
+    margin-top: 10px;
+}
+
+.activities .claim-requests a{
+    display: inline-block;
+    margin-left: 56px;
+    margin-top: 8px;
+}
+
+.activities .icon-booking-requests {
+    background-position: -46px -58px;
+    width: 15px;
+    height: 16px;
+    position: absolute;
+    left: 24px;
+    margin-top: 15px;
+}
+
+.activities .booking-requests a{
+    display: inline-block;
+    margin-left: 56px;
+    margin-top: 14px;
+}
+
+.activities .icon-messages {
+    background-position: -32px -40px;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 24px;
+    margin-top: 15px;
+}
+
+.activities .messages a{
+    display: inline-block;
+    margin-left: 56px;
+    margin-top: 14px;
+}
+                            /*******Left Menu-Menu Actions*******/
+.actions p {
+    color: #ffffff;
+    font-size: 12px;
+    margin-left: 15px;
+    margin-top: 27px;
+    text-align: left;
+}
+
+.actions .icon-send-notices {
+    background-position: -18px -40px;
+    width: 14px;
+    height: 16px;
+    position: absolute;
+    left: 24px;
+    margin-top: 10px;
+}
+
+.actions .send-notices a{
+    display: inline-block;
+    margin-left: 56px;
+    margin-top: 8px;
+}
+                            /*******Left Menu-Menu Flags*******/
+.flags p {
+    color: #ffffff;
+    font-size: 12px;
+    margin-left: 16px;
+    margin-top: 27px;
+    text-align: left;
+}
+
+.flags .icon-flagged-users {
+    background-position: 0px -58px;
+    width: 15px;
+    height: 16px;
+    position: absolute;
+    left: 25px;
+    margin-top: 10px;
+}
+
+.flags .flagged-users a{
+    display: inline-block;
+    margin-left: 56px;
+    margin-top: 8px;
+}
+
+.flags .icon-flagged-messages {
+    background-position: -0px -58px;
+    width: 15px;
+    height: 16px;
+    position: absolute;
+    left: 25px;
+    margin-top: 15px;
+}
+
+.flags .flagged-messages a {
+    display: inline-block;
+    margin-left: 56px;
+    margin-top: 14px;
+}
+
+                            /*******Main-Table*******/
+
+.main {
+    clear: both;
+}
+
+.shows p:first-of-type {
+    margin-left: 16px;
+    margin-right: 5px;
+}
+
+.shows p {
+    font-family: Roboto;
+    color: rgba(43, 43, 43, 0.8);
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 22px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.content {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e0e0e0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: 888px;
+    height: 860px;
+    position: absolute;
+    top: 80px;
+    left: 222px;
+}
+
+.content .table {
+    margin-top: 10px ;
+    margin-left: 0px;
+    width: 888px;
+    height: 1px;
+    float: left;
+}
+
+.content h2 {
+    font-family: Roboto;
+    color: rgba(43, 43, 43, 0.8);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.content .shows input {
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e0e0e0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: 54px;
+    height: 24px;
+}
+
+.content .table a {
+    font-family: Roboto;
+    color: rgba(43, 43, 43, 0.8);
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    transform: scaleY(1.001);
+    text-decoration: none;
+    display:inline-block;
+    margin-top: 3px;
+
+}
+
+.content .table p {
+    font-family: Roboto;
+    color: rgba(43, 43, 43, 0.8);
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+.content .table th .artists-foto {
+    border-color: #f0f0f0;
+}
+
+.content .table td>img {
+    margin-left: 16px;
+
+}
+
+.content .table th {
+    font-family: Roboto;
+    color: rgba(43, 43, 43, 0.8);
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    transform: scaleY(1.001);
+}
+
+.content .table td {
+    font-family: Roboto;
+    color: rgba(43, 43, 43, 0.8);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    transform: scaleY(1.001);
+    vertical-align: middle;
+
+}
+.content .table .cross-not-clamed {
+    background-position: -36px -24px;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 4px;
+    margin-top: 2px;
+    margin-right: 10px;
+    display: inline-block;
+
+}
+
+.content .table .not-claimed {
+    font-family: Roboto;
+    color: #d9534f;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    transform: scaleY(1.001);
+    padding-left: 28px;
+}
+
+.content .table .cross-clamed {
+    background-position: 0px -24px;
+    width: 20px;
+    height: 16px;
+    position: absolute;
+    left: 4px;
+    margin-top: 2px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.content .table .claimed {
+    font-family: Roboto;
+    color: #5cb85c;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    transform: scaleY(1.001);
+    padding-left: 28px;
+}
+
+.pagination li a {
+    font-family: Roboto;
+    color: rgba(43, 43, 43, 0.8);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.pagination li.active a {
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #e0e0e0;
+    box-sizing: border-box;
+    background-color:  #92c345;
+}
+
+.pagination li.active a:hover {
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #e0e0e0;
+    box-sizing: border-box;
+    background-color:  #92c345;
+    color: rgba(43, 43, 43, 0.8);
+}
+
+.nav-bottom {
+    margin-left: 260px;
+
+}
+
+                            /*******Main-Table*******/
+
+.search-block {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e0e0e0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: 280px;
+    height: 337px;
+    position: absolute;
+    top: 80px;
+    right: 24px;
+}
+
+.search-block .form-group p {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 17px;
+    margin-left: 20px;
+}
+
+.search-block .form-group label{
+    color: rgba(43, 43, 43, 0.8);
+    text-align: left;
+    margin-left: 19px;
+}
+
+.search-block .form-group .form-control {
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e0e0e0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: 246px;
+    height: 38px;
+    margin-left: 19px;
+}
+
+.search-block .search-tag .cross-techno {
+    background-position: -64px -40px;
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    top: 40px;
+    left: 33px;
+}
+
+.search-block .search-tag .cross-house {
+    background-position: -64px -40px;
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    top: 40px;
+    left: 105px;
+}
+
+.search-block .search-tag {
+    position: relative;
+}
+
+.search-block .search-tag .tag {
+    border: 1px solid #e0e0e0;
+    padding: 2px 2px 2px 17px;
+}
+
+.search-block .search-tag .tag-techno {
+    position: absolute;
+    top: 32px;
+    left: 28px;
+}
+
+.search-block .search-tag .tag-house {
+    position: absolute;
+    top: 32px;
+    left: 100px;
+}
+
+.search-block .btn-success {
+    border-radius: 3px;
+    background-color: #92c345;
+    width: 246px;
+    height: 38px;
+    margin-left: 19px;
+    margin-bottom: 27px;
+}
+
+.search-block button{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+

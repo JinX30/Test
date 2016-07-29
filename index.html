@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Panel</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>-->
+</head>
+<body class="wrapper">
+<header class="header">
+    <h1>Artists</h1>
+    <button>+ Create New Account</button>
+    <input type="text" placeholder="Search User...">
+    <span class="search-h"></span>
+    <span class="search"></span>
+</header>
+<section>
+    <div class="sidebar">
+        <div class="logo">
+        </div>
+        <div class="user-profile">
+            <div class="user-foto">
+                <img src="img/daru_sim.png" alt="">
+            </div>
+            <div class="user-name">
+                <a href="index.html" target="_blank">Daru Sim</a>
+                <p>Administrator</p>
+            </div>
+        </div>
+        <div class="dashboard">
+            <span class="icon-dashboard"></span>
+            <p>Dashboard</p>
+        </div>
+        <menu class="registration">
+            <p>User Account Registration</p>
+            <li class="artists">
+                <span class="icon-artists"></span>
+                <a href="index.html" target="_blank">Artists</a>
+            </li>
+
+            <li class="promoters">
+                <span class="icon-promoters"></span>
+                <a href="index.html" target="_blank">Promoters</a>
+            </li>
+
+            <li class="users">
+                <span class="icon-users"></span>
+                <a href="index.html" target="_blank">Users</a>
+            </li>
+        </menu>
+        <menu class="activities">
+            <p>Activities</p>
+            <li class="claim-requests">
+                <span class="icon-claim-requests"></span>
+                <a href="index.html" target="_blank">Claim Requests</a>
+            </li>
+
+            <li class="booking-requests">
+                <span class="icon-booking-requests"></span>
+                <a href="index.html" target="_blank">Booking Requests</a>
+            </li>
+
+            <li class="messages">
+                <span class="icon-messages"></span>
+                <a href="index.html" target="_blank">Messages</a>
+            </li>
+        </menu>
+        <menu class="actions">
+            <p>Actions</p>
+            <li class="send-notices">
+                <span class="icon-send-notices"></span>
+                <a href="index.html" target="_blank">Send Notices</a>
+            </li>
+        </menu>
+        <menu class="flags">
+            <p>Flags</p>
+            <li class="flagged-users">
+                <span class="icon-flagged-users"></span>
+                <a href="index.html" target="_blank">Flagged Users</a>
+            </li>
+
+            <li class="flagged-messages">
+                <span class="icon-flagged-messages"></span>
+                <a href="index.html" target="_blank">Flagged Messages</a>
+            </li>
+        </menu>
+    </div>
+    </div>
+    <div class="main">
+
+        <div class="content">
+            <h2>Artists Lists (Horizontal scroll table)</h2>
+            <div class="shows form-select">
+                <p>Shows</p>
+                <input type="number" min="10" max="50" value="10" step="10" name="entries_count">
+                <p>entries</p>
+            </div>
+            <table class="table table-condensed">
+
+                <thead>
+                <tr>
+                    <th class="artists-foto"></th>
+                    <th>Name</th>
+                    <th>Location</th>
+                    <th>Profile Creation</th>
+                    <th>Claim Profile</th>
+                    <th>Email</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>
+                        <img src="img/chris_fox.png" alt="">
+                    </td>
+                    <td>
+                        <a href="index.html" target="_blank">Chris Fox</a>
+                        <p>Genres: Techno, House</p>
+                    </td>
+                    <td>Amsterdam, Netherlands</td>
+                    <td>Incomplete</td>
+                    <td class="not-claimed">Not Claimed
+                        <span class="cross-not-clamed"></span>
+                    </td>
+                    <td>email@email</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="img/mogen_polish.png" alt="">
+                    </td>
+                    <td>
+                        <a href="index.html" target="_blank">Mogen Polish</a>
+                        <p>Genres: Techno</p>
+                    </td>
+                    <td>Berlin, Netherlands</td>
+                    <td>Incomplete</td>
+                    <td class="not-claimed">Not Claimed
+                        <span class="cross-not-clamed"></span>
+                    </td>
+                    <td>email@email</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="img/joge_lucky.png" alt="">
+                    </td>
+                    <td>
+                        <a href="index.html" target="_blank">Joge Lucky</a>
+                        <p>Genres: Techno, House</p>
+                    </td>
+                    <td>Amsterdam, Netherlands</td>
+                    <td>Complete</td>
+                    <td class="not-claimed">Not Claimed
+                        <span class="cross-not-clamed"></span>
+                    </td>
+                    <td>email@email</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="img/folisise_chosielie.png" alt="">
+                    </td>
+                    <td>
+                        <a href="index.html" target="_blank">Folisise Chosielie</a>
+                        <p>Genres: Techno</p>
+                    </td>
+                    <td>Berlin, Netherlands</td>
+                    <td>Incomplete</td>
+                    <td class="not-claimed">Not Claimed
+                        <span class="cross-not-clamed"></span>
+                    </td>
+                    <td>email@email</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="img/peter.png" alt="">
+                    </td>
+                    <td>
+                        <a href="index.html" target="_blank">Peter</a>
+                        <p>Genres: Techno, House</p>
+                    </td>
+                    <td>Amsterdam, Netherlands</td>
+                    <td>Complete</td>
+                    <td class="claimed">Claimed
+                        <span class="cross-clamed"></span>
+                    </td>
+                    <td>email@email</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="img/chris_fox.png" alt="">
+                    </td>
+                    <td>
+                        <a href="index.html" target="_blank">Chris Fox</a>
+                        <p>Genres: Techno, House</p>
+                    </td>
+                    <td>Amsterdam, Netherlands</td>
+                    <td>Incomplete</td>
+                    <td class="not-claimed">Not Claimed
+                        <span class="cross-not-clamed"></span>
+                    </td>
+                    <td>email@email</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="img/mogen_polish.png" alt="">
+                    </td>
+                    <td>
+                        <a href="index.html" target="_blank">Mogen Polish</a>
+                        <p>Genres: Techno</p>
+                    </td>
+                    <td>Berlin, Netherlands</td>
+                    <td>Incomplete</td>
+                    <td class="not-claimed">Not Claimed
+                        <span class="cross-not-clamed"></span>
+                    </td>
+                    <td>email@email</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="img/joge_lucky.png" alt="">
+                    </td>
+                    <td>
+                        <a href="index.html" target="_blank">Joge Lucky</a>
+                        <p>Genres: Techno, House</p>
+                    </td>
+                    <td>Amsterdam, Netherlands</td>
+                    <td>Incomplete</td>
+                    <td class="not-claimed">Not Claimed
+                        <span class="cross-not-clamed"></span>
+                    </td>
+                    <td>email@email</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="img/folisise_chosielie.png" alt="">
+                    </td>
+                    <td>
+                        <a href="index.html" target="_blank">Folisise Chosielie</a>
+                        <p>Genres: Techno</p>
+                    </td>
+                    <td>Berlin, Netherlands</td>
+                    <td>Incomplete</td>
+                    <td class="not-claimed">Not Claimed
+                        <span class="cross-not-clamed"></span>
+                    </td>
+                    <td>email@email</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="img/peter.png" alt="">
+                    </td>
+                    <td>
+                        <a href="index.html" target="_blank">Peter</a>
+                        <p>Genres: Techno, House</p>
+                    </td>
+                    <td>Amsterdam, Netherlands</td>
+                    <td>Complete</td>
+                    <td class="claimed">Claimed
+                        <span class="cross-clamed"></span>
+                    </td>
+                    <td>email@email</td>
+                </tr>
+                </tbody>
+            </table>
+            <nav class="nav-bottom">
+                <ul class="pagination">
+                    <li><a href="#" aria-label="Previous"><span aria-hidden="true">Previous</span></a></li>
+                    <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">2 <span class="sr-only"></span></a></li>
+                    <li><a href="#">3 <span class="sr-only"></span></a></li>
+                    <li><a href="#">4 <span class="sr-only"></span></a></li>
+                    <li><a href="#">5 <span class="sr-only"></span></a></li>
+                    <li><a href="#">6 <span class="sr-only"></span></a></li>
+                    <li><a href="#" aria-label="Next"><span aria-hidden="true">Next</span></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="search-block">
+            <form role="form">
+                <div class="form-group">
+                    <p>Filter Search</p>
+                    <label for="email">Name:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <label for="pass">Location:</label>
+                    <input type="password" class="form-control" id="pass" placeholder="Location">
+                </div>
+                <div class="form-group search-tag">
+                    <label>Genres:</label>
+                    <input type="text" class="form-control" id="generes" placeholder="">
+                    <span class="tag tag-techno">Techno</span>
+                    <span class="cross-techno"></span>
+                    <span class="tag tag-house">House</span>
+                    <span class="cross-house"></span>
+                </div>
+                <button type="submit" class="btn btn-success">Search</button>
+            </form>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+</footer>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

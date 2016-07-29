@@ -1,0 +1,31 @@
+/* glue: 0.4 hash: 1642b66d36 */
+.sprite-sprites-logo,
+.sprite-sprites-icon_green_true,
+.sprite-sprites-icon_search,
+.sprite-sprites-icon_users,
+.sprite-sprites-icon_red_false,
+.sprite-sprites-icon_promoters,
+.sprite-sprites-icon_notices,
+.sprite-sprites-icon_messages,
+.sprite-sprites-icon_logout,
+.sprite-sprites-icon_flag,
+.sprite-sprites-icon_dashboard,
+.sprite-sprites-icon_claim,
+.sprite-sprites-icon_booking,
+.sprite-sprites-icon_artist,
+.sprite-sprites-icon_grey_cross{background-image:url('sprites.png');background-repeat:no-repeat}
+.sprite-sprites-logo{background-position:0px 0px;width:77px;height:24px;}
+.sprite-sprites-icon_green_true{background-position:0px -24px;width:20px;height:16px;}
+.sprite-sprites-icon_search{background-position:0px -40px;width:18px;height:18px;}
+.sprite-sprites-icon_users{background-position:-20px -24px;width:16px;height:16px;}
+.sprite-sprites-icon_red_false{background-position:-36px -24px;width:16px;height:16px;}
+.sprite-sprites-icon_promoters{background-position:-52px -24px;width:16px;height:15px;}
+.sprite-sprites-icon_notices{background-position:-18px -40px;width:14px;height:16px;}
+.sprite-sprites-icon_messages{background-position:-32px -40px;width:16px;height:16px;}
+.sprite-sprites-icon_logout{background-position:-48px -40px;width:16px;height:16px;}
+.sprite-sprites-icon_flag{background-position:0px -58px;width:15px;height:16px;}
+.sprite-sprites-icon_dashboard{background-position:-15px -58px;width:16px;height:16px;}
+.sprite-sprites-icon_claim{background-position:-31px -58px;width:15px;height:16px;}
+.sprite-sprites-icon_booking{background-position:-46px -58px;width:15px;height:16px;}
+.sprite-sprites-icon_artist{background-position:-61px -58px;width:16px;height:16px;}
+.sprite-sprites-icon_grey_cross{background-position:-64px -40px;width:11px;height:11px;}
